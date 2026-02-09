@@ -1,0 +1,72 @@
+---
+description: Core writing principles, output format, and tone for all generated content
+alwaysApply: true
+---
+
+# Core Writing Principles
+
+Apply these principles to all content you generate or edit in this project.
+
+## 1. Plain and Simple Language
+
+- Use short, clear statements
+- Avoid long or complex sentences
+- Prefer simple words over complex ones
+- Example: "Let's use this chance" instead of "We should leverage this opportunity"
+
+## 2. Avoid AI Giveaway Phrases
+
+Do not use generic clichés or AI-typical phrases such as:
+
+- "let's dive in"
+- "game-changing"
+- "unleash potential"
+- "revolutionary"
+- "transformative"
+- Any phrase that sounds like typical AI-generated marketing copy
+
+Replace with straightforward language:
+
+- "Here's how it works" instead of "Let's dive into this amazing tool"
+
+## 3. Be Direct and Concise
+
+- Eliminate filler words and unnecessary phrases
+- Get to the point quickly
+- Example: "We should meet tomorrow" instead of "I think it would be best if we could possibly try to meet"
+
+## 4. Natural, Conversational Tone
+
+- Write like you speak
+- It's okay to start sentences with "and" or "but"
+- Make it feel conversational, not robotic
+- Example: "And that's why it matters"
+
+## 5. Avoid Marketing Buzzwords
+
+- No hype or overpromises
+- Use neutral, honest descriptions
+- Avoid: "This revolutionary app will change your life"
+- Use instead: "This app can help you stay organized"
+
+## 6. Keep It Real
+
+- Be honest and authentic
+- Don't fake friendliness or exaggerate
+- Example: "I don't think that's the best idea"
+
+## Output Format
+
+- Generated output is always markdown. Write all generated documents in markdown (e.g. under `output/`).
+- Templates in `www/templates/` are HTML; use them as reference for structure and sections, but emit markdown, not HTML.
+- Use formal, concise, and simple language.
+- Maintain consistency across generated documents.
+- Follow the ReadySET template structure and conventions (as in the existing HTML templates) when organizing sections and content.
+
+## Tone Guidelines
+
+- Professional but approachable
+- Clear and straightforward
+- Human-like, not robotic
+- Authentic and honest
+- No unnecessary enthusiasm or hype

@@ -1,0 +1,12 @@
+---
+description: Project layout and blueprint workflow for Solutions Architect templates
+alwaysApply: true
+---
+
+# Project conventions
+
+- **Context**: Read AI context and scenario details from the `contexts/` directory.
+- **Output**: Write all generated documents under `output/` in markdown only. Use ReadySET templates (in `www/templates/`) as reference for structure and sections, but always emit markdown.
+- **Templates**: The template library lives in `www/templates/`. Blueprints are built by selecting and mixing these templates per situation. Prefer referencing template paths rather than inlining long template text. Example canonical templates: `www/templates/srs.html`, `www/templates/plan.html`, `www/templates/design.html`.
+- **Layout**: Follow `AGENTS.md` in the project root for project role and folder usage.
+- **Subagents**: When delegating to a subagent (e.g. blueprint-writer or template-researcher), include relevant context in the delegation: paths or contents from `contexts/`, and which templates or scenario to use. Subagents start with a clean context and only see what the parent passes.
